@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p>hello world</p>
+    <header>
+        <nav class="nav_left">
+            <a href="">Motorcycle </a>
+            <a href="">Ownership</a>
+        </nav>
+        <img class="header-logo" src="./images/logo.svg" alt="logo">
+        <nav class="nav_right">
+            <a href="">Company</a>
+            <a href="">Dealers</a>
+            <a href="">Store</a>
+            <a href="">EN</a>
+        </nav>
+    </header>
+    <section class="banner">
+        <h1 class="title">
+            <strong class="item">monaco</strong>
+            <strong class="item">design</strong>
+            <strong class="item">studio</strong>
+        </h1>
+        <img src="./images/banner.webp" alt="">
+    </section>
+    <blockquote class="quote">
+        <p class="quote_contain">Monaco Design Studio is an official department of MV Agusta specialising in the
+            creation of
+            unique models to meet a passionate clientele's demand for the most exclusive, luxury customisation.
+        </p>
+    </blockquote>
+    <section class="slider-gallery slider-gallery_wrap">
+        <div class="slider-gallery__for slick-initialized slick-slider">
+            <div class="slick-list">
+                <div class="slick-track" style="opacity: 1; width: 7600px;">
+                    <div class="slider-gallery__picture slider-gallery__picture_full slick-slide slick-current slick-active"
+                        data-slick-index="0" aria-hidden="false"
+                        style="width: 100vw; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;"
+                        tabindex="0"><img class="slider-gallery__img" src="images/slides/slide-red.png" alt=""></div>
+                    <div class="slider-gallery__picture slider-gallery__picture_full slick-slide" data-slick-index="1"
+                        aria-hidden="true"
+                        style="width: 100vw; position: relative; left: -1520px; top: 0px; z-index: 998; opacity: 0;"
+                        tabindex="-1"><img class="slider-gallery__img" src="images/slides/slide-green.png" alt="">
+                    </div>
+                    <div class="slider-gallery__picture slider-gallery__picture_full slick-slide" data-slick-index="2"
+                        aria-hidden="true"
+                        style="width: 100vw; position: relative; left: -3040px; top: 0px; z-index: 998; opacity: 0;"
+                        tabindex="-1"><img class="slider-gallery__img" src="images/slides/slide-blue.png" alt="">
+                    </div>
+                    <div class="slider-gallery__picture slider-gallery__picture_full slick-slide" data-slick-index="3"
+                        aria-hidden="true"
+                        style="width: 100vw; position: relative; left: -4560px; top: 0px; z-index: 998; opacity: 0;"
+                        tabindex="-1"><img class="slider-gallery__img" src="images/slides/slide-white.png" alt="">
+                    </div>
+                    <div class="slider-gallery__picture slider-gallery__picture_full slick-slide" data-slick-index="4"
+                        aria-hidden="true"
+                        style="width: 100vw; position: relative; left: -6080px; top: 0px; z-index: 998; opacity: 0;"
+                        tabindex="-1"><img class="slider-gallery__img" src="images/slides/slide-brown.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-gallery__bottom">
+            <div class="slider-gallery__nav">
+                <div class="slider-gallery__preview" slide-id="0"><img class="slider-gallery__img"
+                        src="images/slides/slide-red.png" alt=""></div>
+                <div class="slider-gallery__preview" slide-id="1"><img class="slider-gallery__img"
+                        src="images/slides/slide-green.png" alt=""></div>
+                <div class="slider-gallery__preview" slide-id="2"><img class="slider-gallery__img"
+                        src="images/slides/slide-blue.png" alt=""></div>
+                <div class="slider-gallery__preview" slide-id="3"><img class="slider-gallery__img"
+                        src="images/slides/slide-white.png" alt=""></div>
+                <div class="slider-gallery__preview" slide-id="4"><img class="slider-gallery__img"
+                        src="images/slides/slide-brown.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
+
 </html>
